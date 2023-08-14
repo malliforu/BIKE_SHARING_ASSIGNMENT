@@ -49,6 +49,9 @@ We are using Bike share dataset
   5. yr - year is high correlated with cnt
   6. temp & a_temp - are also highly correlated with cnt
 
+- We can see that the equation of our best fitted line is:
+
+$cnt$ = 0.1959 - 0.1086 X $spring$ + 0.0350 X $summer$ + 0.0833 X $winter$ + 0.0438 X $mar$ - 0.0561 X $jul$ + 0.0572 X $sep$ - 0.0389 X $dec$ - 0.0418 X $tue$ - 0.0841 X $haze$ - 0.2737 X $precipitation$ + 0.02529 X $yr$ + 0.4884 X $temp$ - 0.1004 X $windspeed$
 
 ## Acknowledgements
 - This project was given by UpGrad
