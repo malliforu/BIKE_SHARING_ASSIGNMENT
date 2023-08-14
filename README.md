@@ -11,42 +11,44 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+
+A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+
+A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+
+In such an attempt, BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. They have planned this to prepare themselves to cater to the people's needs once the situation gets better all around and stand out from other service providers and make huge profits.
+
+the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+- Which variables are significant in predicting the demand for shared bikes.
+- How well those variables describe the bike demands
+
+We are using Bike share dataset
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Numpy -- version -1.24.3
+- Pandas -- version -1.4.2
+- Matplotlib -- version -3.5.1
+- Seaborn -- version -0.11.2
+- Scikit Learn -- version -1.0.2
+- Statsmodels -- version -0.13.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
+
+## Conclusions
+- No missing values in the Dataset
+- Visualizing the data in lineplot between variables 'Year-Month' and 'cnt' Bookings have dropped significantly because of spring time and christmas days.
+- Visualizing the pairplot btween the variables 'temp','atemp', 'hum', 'windspeed', 'cnt' we can clearly see the 'temp' is significant variable for Model
+- Bar plot visualization for correlation.
+  1. seasons - Spring is negatively highly correlated and where as summer,fall and winter as posiively correlated 
+  2. months - nov,dec,jan,feb,march negatively correlated and where others are positively
+  3. weekdays - there is no much of correlation explained in weekdays
+  4. weather - clear weather is positively correlated and haze and percipitation are negatively
+  5. yr - year is high correlated with cnt
+  6. temp & a_temp - are also highly correlated with cnt
+
+
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- This project was given by UpGrad
